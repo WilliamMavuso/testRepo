@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.outer-con{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.nav-con{
+    width: 100%;
+    height: 100px;
+    float: left; 
+    background-color: lightgray;
+}
+
+.logo-con{
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: darkgrey;
+}
+
+.user-info-con{
+    width: 30%;
+    height: 100%;
+    float: right;
+    background-color: darkgrey;
+}
+
+.registration-con{
+    width: 50%;
+    height: 100%;
+    color: white;
+    font-family: sans-serif;
+    float: left;
+    text-align: right;  
+    /* background-color: lightsalmon; */
+}
+
+.spacer{
+    width: 100%;
+    height: 40px;
+}
+
+.profile-con{
+    width: 50%;
+    height: 100%;
+    float: right;  
+    /* background-color: lightsalmon; */
+}
+
+.spacer-2{
+    width: 100%;
+    height: 25px;
+}
+
+.picture-con{
+    
+        width: 25%;
+        height: 50%;
+        margin: 0 auto;
+        border-radius: 50%!important;
+        background-color: none;
+        background-image: url("https://image.flaticon.com/icons/svg/847/847969.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+.header-con{
+    width: 100%;
+    height: 200px;
+    float: left;
+    background-color: gray;
+}
+
+.heading-con{
+    width: 80%;
+    height: 200px;
+    text-align: center;
+    float: left;
+    background-color: gray; 
+}
+
+.spacer-1{
+    width: 100%;
+    height: 60px;
+}
+
+.heading-con h1{
+ color: white;
+ font-family: sans-serif;
+}
+
+.commentary-con{
+    width: 19%;
+    height: 180px;
+    float: right;
+    background-color: lightgray; 
+    border: 1px solid lightgray;
+}
+
+.commentary-text-con{
+    width: 100%;
+    height: 50%;
+    float: left;
+    font-family: sans-serif;
+    color: white;
+    font-size: 16x;
+    font-weight: lighter;
+    text-align: center;
+    /* margin-top: 20px; */
+    /* background-color: lightsalmon; */
+}
+
+.commentary-text-con h2{
+    margin-top: 50px;
+    font-size: 21.5px;
+}
+
+.commentary-controllers{
+   width: 100%;
+   height: 50%; 
+   float: right;
+   /* background-color: red; */
+}
+
+.controller-1{
+    width: 15%;
+    height: 45%;
+    background-color: gainsboro;
+    float: left;
+    margin-left: 90px;
+    margin-top: 20px;
+    shape-outside: circle();
+    border-radius: 50px;
+}
+
+.controller-2{
+    width: 15%;
+    height: 45%;
+    background-color: gainsboro;
+    float: left;
+    margin-left: 11px;
+    margin-top: 20px;
+    shape-outside: circle();
+    border-radius: 50px;
+}
+
+.inner-con{
+    width: 100%;
+    height: auto;
+    float: left; 
+    background-color: gray;
+}
+
+.side-filter-con{
+    width: 20%;
+    text-align: center;
+    height: 500px;
+    float: left; 
+    background-color: darkgrey; 
+}
+
+.side-filter-con ul{
+    text-decoration: none;
+}
+
+.side-filter-con li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 11px;
+}
+
+#li-title{
+    text-decoration: underline;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.top-filter-con{
+    width: 80%;
+    height: 62px;
+    float: left;
+    margin: 0 auto;
+    /* background-color: red;  */
+}
+
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    /* margin: 30px auto; */
+    width: 180px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: lightgray;
+  /* box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22); */
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  /* .card .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+  } */
+  
+  /* .card .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+  } */
+  
+  .card .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    /* font-weight: bold; */
+    font-size: 17px;
+    margin-top: 5px;
+    height: 40px;
+  }
+  
+  .card:hover {
+    transform: scale(0.9, 0.9);
+    /* box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), 
+    -5px -5px 30px 7px rgba(0,0,0,0.22); */
+    color: white;
+  }
+  
+  /* .title-white {
+    color: white;
+  } */
+  
+  /* .title-black {
+    color: black;
+  } */
+  
+  @media all and (max-width: 500px) {
+    .card-list {
+      /* On small screens, we are no longer using row direction but column */
+      flex-direction: column;
+    }
+  }
+
+.posts-con{
+    width: 80%;
+    height: 450px;
+    float: left; 
+    /* background-color: lightblue; */
+}
+
+.inner-post-con{
+    width: 95%;
+    margin: 0 auto;
+    height: 450px;
+    /* background-color: lightgreen; */
+}
+
+.post{
+    width: 100%;
+    height: 80px;
+    background-color: gainsboro;
+    margin: 0 auto;
+}
+
+.post-info{
+    width:70%;
+    height: 100%;
+    /* background-color: red; */
+    float: left;
+}
+
+.post-image{
+    width: 100px;
+    height: 100%;
+    background-color: lightgrey;
+    float: left;
+}
+
+.post-text{
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-left: 100px;
+}
+
+.post-text p{
+    padding-top: 7px;
+    margin-left: 11px;
+}
+
+.post-name{
+    color: gray;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 100px;
+}
+
+.post-name p{
+    padding-top: 9px;
+    margin-left: 11px; 
+}
+
+.post-occupation{
+    color: gray;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 100px;
+}
+
+.post-occupation  p{
+    padding-top: 7px;
+    margin-left: 11px; 
+}
+
+.post-stats{
+    width: 30%;
+    height: 100%;
+    /* background-color: green; */
+    float: right;
+}
+
+.post-time{
+    color: gray;
+    font-family: sans-serif;
+    font-weight: lighter;
+    float: left;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.post-time  p{
+    padding-top: 32px;
+    margin-left: 11px; 
+}
+
+.reaction-con{
+    width: 75px;
+    height: 50%;
+    float: right;
+    margin-top: 25px;
+    /* background-color: lightyellow; */
+}
+
+.like-con{
+    width: 40%;
+    height: 80%;
+    background-color: lightgray;
+    float: left;
+    margin-left: 9px; 
+    shape-outside: circle();
+    border-radius: 50px;
+}
+
+.reaction-con-2{
+    width: 78px;
+    height: 50%;
+    float: right;
+    margin-top: 25px;
+    /* background-color: lightyellow; */
+} 
+
+.dislike-con{
+    width: 40%;
+    height: 80%;
+    background-color: gray;
+    float: right;
+    shape-outside: circle();
+    border-radius: 50px;
+}
